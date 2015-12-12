@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Study - Rejestracja </title>
+    <!----- Bootstrap ----->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" type="text/css" >
+
+
+    <!----- Main CSS ------>
+    <link rel="stylesheet" href="style.css" type="text/css" >
+</head>
+<body>
+
+<div id="login-box" align="center" >
+    <h3>Rejestracja w StudyWeb</h3>
+    <p>Nazwa użytkownika: </p>
+    <input type="text" placeholder="Login" required > </br>
+    <p>Hasło: </p>
+    <input type="password" placeholder="Hasło" required > </br>
+
+    <p>Powtórz hasło: </p>
+    <input type="password" placeholder="Powtórz hasło" required > </br>
+
+    <p>E-mail: </p>
+    <input type="email" placeholder="E-mail" required > </br>
+
+    <p>Wybierz szkołę: </p>
+    <div class="dropdown">
+        <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+            Szkoły
+            <span class="caret"></span>
+        </button>
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+            <li><a href="#">IV LO we Włocławku</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Publiczne Gimnazjum imienia księdza Jana Twardowskiego w Fabiankach</a></li>
+        </ul>
+    </div>
+    <p>Wybierz uniwersytet (jeśli jesteś studentem)</p>
+
+    <div class="dropdown">
+        <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+            Uniwersytety
+            <span class="caret"></span>
+        </button>
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+            <li><a href="#">Uniwersytet Jagielloński</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Uniwersytet Warszawski </a></li>
+            <li><a href="#">Uniwersytet Gdański</a></li>
+            <li><a href="#">Uniwersytet Poznański</a></li>
+            <li><a href="#">Uniwersytet Śląski</a></li>
+            <li><a href="#">Uniwersytet Rzeszowski</a></li>
+        </ul>
+    </div>
+
+    <button type="button" id="btn btn-default navbar-btn" onclick="window.location.href='profile.html' " >Zaloguj się</button>
+</div>
+
+
+</section>
+
+<section id="footer" align="center" >
+    <h3>Polecają</h3>
+    <img src="images/uj_logo.png" alt="Uniwersytet Jagielloński " height="128" width="128" >
+    <img src="images/UW.gif" alt="Uniwersytet Warszawski " height="128" width="128" >
+
+    <img src="images/logo_pw.png" alt="Politechnika Warszawska " height="128" width="128" >
+    <img src="images/Politechnika%20Gdańska%20logo%202013.png" alt="Politechnika Gdańska " height="128" width="128" >
+</section>
+</body>
+</html>
