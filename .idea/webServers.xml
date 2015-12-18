@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="c2c8ce1f-cb44-4f11-aa25-4d6b28695a77" name="duduldev.cal24.pl" url="http://duduldev.cal24.pl/">
+        <fileTransfer host="duduldev.cal24.pl" port="21" username="duduldev_admin" />
+      </webServer>
+    </option>
+  </component>
+</project>
