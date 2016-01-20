@@ -8,8 +8,18 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" type="text/css" >
     <!----- Main CSS ------>
     <link rel="stylesheet" href="style.css" type="text/css" >
+    <link href="bgaudioplayer.css" rel="stylesheet" type="text/css" />
+
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+
+    <script src="backgroundplayer.js">
+
+
+
+    </script>
 </head>
-<body>
+<body onload="totdinit()" onLoad="dspltip()">
 <nav class="navbar navbar-default" id="menu" >
     <div class="container-fluid" align="center" >
         <div class="navbar-header">
@@ -31,15 +41,23 @@
         <button type="button" class="btn btn-default navbar-btn" onclick="window.location.href='login.html'" >Zaloguj się</button>
 
         <button type="button" class="btn btn-default navbar-btn" onclick="window.location.href='register.html'">Zarejestruj się</button>
-
     </div>
 
 </nav>
 
 <div id="image-header" align="center" >
-<img src="images/Icons8-Windows-8-Science-University.ico" id="uj" height="250" width="250"  >
+<img src="images/Icons8-Windows-8-Science-University.ico" id="uj" height="250" width="250" onclick="window.location.href='tips/totd.html'">
     </div>
 <section id="main" align="center" >
+
+  <!---
+
+    <audio id="mybgplayer">
+        <source src="background.mp3" type="audio/mpeg"/>
+    </audio>
+
+
+--->
 
 
 

@@ -2,8 +2,12 @@
 <project version="4">
   <component name="WebServers">
     <option name="servers">
-      <webServer id="c2c8ce1f-cb44-4f11-aa25-4d6b28695a77" name="duduldev.cal24.pl" url="http://duduldev.cal24.pl/">
-        <fileTransfer accessType="LOCAL" />
+      <webServer id="1037e9a9-164f-44b0-bf09-b82d2e7c3886" name="duduldev.cal24.pl" url="http://duduldev.cal24.pl">
+        <fileTransfer host="duduldev.cal24.pl" port="21" password="df99dff0dfe2dfd0dfd2dfc8dfdedfdd" username="duduldev">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
       </webServer>
     </option>
   </component>
